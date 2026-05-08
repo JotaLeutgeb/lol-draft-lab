@@ -1,0 +1,37 @@
+# profiles/example_player.yaml
+# ─────────────────────────────────────────────
+# Perfil de jugador para Scout Protocol.
+# Copiar este archivo, renombrarlo y completar
+# los campos para cada jugador a analizar.
+# ─────────────────────────────────────────────
+
+# Riot ID del jugador (GameName#TAG)
+riot_id: "AEVI Jöta#jjjjj"
+
+# Nombre de visualización en el dashboard
+display_name: "Jöta"
+
+# Rol principal (TOP | JUNGLE | MID | BOT | SUPPORT)
+primary_role: "JUNGLE"
+
+# Roles secundarios aceptados (para evitar filtrar partidas off-role)
+# Dejar vacío [] si solo queremos el rol principal
+secondary_roles: []
+
+# Nombres históricos/alias (para partidas con nombres anteriores)
+# Solo el GameName, sin el #TAG
+historical_names: ["Jöta"]
+
+# Configuración de API
+platform: "la2"    # Plataforma (la1=LAN, la2=LAS, br1=BR, na1=NA, euw1=EUW, kr=KR)
+region: "americas" # Routing region (americas | europe | asia | sea)
+
+# Colas a incluir en el análisis
+# 420 = Ranked Solo/Duo | 440 = Flex | 0 = Custom/Scrim | 400 = Draft Normal
+queue_filter: [420]
+
+# Tag interno para aislar datos en Supabase (sin espacios, sin caracteres especiales)
+supabase_tag: "player_bot"
+
+# NOTA: El sistema ahora carga automáticamente TODAS las partidas de la season actual (2026 S1).
+# No es necesario especificar match_count - se descargan todas las partidas desde el 8 de enero 2026.

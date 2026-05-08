@@ -1,0 +1,50 @@
+AEVI Matches Player Roles and Names:
+
+--- Match ID: LA2_1593392872 ---
+Name: Toruk Makto | Role: TOP | Team Side: 100
+Name: FaxusK | Role: JUNGLE | Team Side: 100
+Name: D U M B  G I R L | Role: MID | Team Side: 100
+Name: TeShacølaCtM | Role: BOT | Team Side: 100
+Name: UnGuatonNevao | Role: SUPPORT | Team Side: 100
+Name: AEVI Winis | Role: TOP | Team Side: 200
+Name: AEVI Jöta | Role: JUNGLE | Team Side: 200
+Name: AEVI Digu | Role: MID | Team Side: 200
+Name: AEVI Fonti | Role: BOT | Team Side: 200
+Name: AEVI Ray | Role: SUPPORT | Team Side: 200
+
+--- Match ID: LA2_1593373178 ---
+Name: AEVI Winis | Role: TOP | Team Side: 100
+Name: AEVI Jöta | Role: JUNGLE | Team Side: 100
+Name: AEVI Digu | Role: MID | Team Side: 100
+Name: AEVI Fonti | Role: BOT | Team Side: 100
+Name: AEVI Ray | Role: SUPPORT | Team Side: 100
+Name: Gray | Role: TOP | Team Side: 200
+Name: Relaxaz | Role: JUNGLE | Team Side: 200
+Name: Rorrita | Role: MID | Team Side: 200
+Name: XØz | Role: BOT | Team Side: 200
+Name: bunni | Role: SUPPORT | Team Side: 200
+
+--- Match ID: LA2_1593388019 ---
+Name: AEVI Winis | Role: TOP | Team Side: 100
+Name: AEVI Jöta | Role: JUNGLE | Team Side: 100
+Name: AEVI Digu | Role: MID | Team Side: 100
+Name: AEVI Fonti | Role: BOT | Team Side: 100
+Name: AEVI Ray | Role: SUPPORT | Team Side: 100
+Name: Blade1 | Role: TOP | Team Side: 200
+Name: Joji enjoyer | Role: JUNGLE | Team Side: 200
+Name: Paneton | Role: MID | Team Side: 200
+Name: Giovanni Darwin | Role: BOT | Team Side: 200
+Name: nocjugar | Role: SUPPORT | Team Side: 200
+
+--- Match ID: LA2_1593379013 ---
+Name: AEVI Winis | Role: TOP | Team Side: 100
+Name: AEVI Jöta | Role: JUNGLE | Team Side: 100
+Name: AEVI Digu | Role: MID | Team Side: 100
+Name: AEVI Fonti | Role: BOT | Team Side: 100
+Name: AEVI Ray | Role: SUPPORT | Team Side: 100
+Name: Humaguaca | Role: TOP | Team Side: 200
+Name: Patitas de Teio | Role: JUNGLE | Team Side: 200
+Name: Belkin82 | Role: MID | Team Side: 200
+Name: TONKAS ENJOYER | Role: BOT | Team Side: 200
+Name: AMURA LOWIE | Role: SUPPORT | Team Side: 200
+

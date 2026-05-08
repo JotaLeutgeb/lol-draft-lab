@@ -1,0 +1,41 @@
+Initial matches downloaded: 12
+Unique match IDs downloaded: ['LA2_1593392872', 'LA2_1593373178', 'LA2_1593388019', 'LA2_1593379013', 'LA2_1590911965', 'LA2_1591172528', 'LA2_1590819414', 'LA2_1590425749', 'LA2_1590317021', 'LA2_1590040787', 'LA2_1582309764', 'LA2_1590060203']
+
+Mapped game_names unique: ['Toruk Makto', 'FaxusK', 'D U M B  G I R L', 'TeShacølaCtM', 'UnGuatonNevao', 'Winis', 'Jöta', 'xPíxel', 'FranFontana', 'Elrayray', 'Gray', 'Relaxaz', 'Rorrita', 'XØz', 'bunni', 'Blade1', 'Joji enjoyer', 'Paneton', 'Giovanni Darwin', 'nocjugar', 'Humaguaca', 'Patitas de Teio', 'Belkin82', 'TONKAS ENJOYER', 'AMURA LOWIE', 'Ráziel', 'GAM', 'Weitaaaa', 'Thaz', 'Kovio', 'boxs', 'Bato', 'AlexanderG6', 'restryzera', 'Pąrka', 'Chiki', 'Beppa', 'Lutsk', 'Stark', 'Fern', 'Shiampa', 'leljpg', 'Gato Gordo', 'Honmono', 'le cuet', 'Jettatore', 'Tuvi', 'LL cazuela', 'TomasZamo', 'Pingüibowser', 'Pingüinari', 'Kairi Sane', 'Linux', 'Lisa Silksong', 'beniesco', 'Zarmoc', 'El Abuelo Juan', 'facufon9', 'El Gordobes', 'Coso', 'therifino', 'XcazueladepolloX', 'Flamer III', 'SrAgustinu', 'what is ponerla', 'Jualperez', 'Reze', 'Capitanazo', 'Paja del DrSimi', 'Arbiter Vildred']
+
+Unique matches remaining after original filter_team_players: 12
+match_id
+LA2_1582309764    4
+LA2_1590040787    5
+LA2_1590060203    5
+LA2_1590317021    5
+LA2_1590425749    5
+LA2_1590819414    5
+LA2_1590911965    5
+LA2_1591172528    5
+LA2_1593373178    5
+LA2_1593379013    5
+LA2_1593388019    5
+LA2_1593392872    5
+
+Unique matches remaining after mapped filter_team_players: 12
+match_id
+LA2_1582309764    4
+LA2_1590040787    5
+LA2_1590060203    5
+LA2_1590317021    5
+LA2_1590425749    5
+LA2_1590819414    5
+LA2_1590911965    5
+LA2_1591172528    5
+LA2_1593373178    5
+LA2_1593379013    5
+LA2_1593388019    5
+LA2_1593392872    5
+
+Matches valid in get_team_match_ids (original): 11
+['LA2_1590911965', 'LA2_1591172528', 'LA2_1593379013', 'LA2_1593392872', 'LA2_1593388019', 'LA2_1590317021', 'LA2_1590040787', 'LA2_1590819414', 'LA2_1590060203', 'LA2_1593373178', 'LA2_1590425749']
+
+Matches valid in get_team_match_ids (mapped): 11
+['LA2_1590911965', 'LA2_1591172528', 'LA2_1593379013', 'LA2_1593392872', 'LA2_1593388019', 'LA2_1590317021', 'LA2_1590040787', 'LA2_1590819414', 'LA2_1590060203', 'LA2_1593373178', 'LA2_1590425749']
+

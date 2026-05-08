@@ -1,0 +1,67 @@
+{
+  "match_id": "scrim_20260508_01",
+  "duration_minutes": 32.5,
+  "result": true,
+  "players": [
+    {
+      "role": "TOP",
+      "champion": "Aatrox",
+      "kills": 4,
+      "deaths": 2,
+      "assists": 8,
+      "gold_earned": 12500,
+      "cs": 240,
+      "vision_score": 18,
+      "total_damage": 19500,
+      "first_blood": false
+    },
+    {
+      "role": "JUNGLE",
+      "champion": "Sejuani",
+      "kills": 1,
+      "deaths": 3,
+      "assists": 12,
+      "gold_earned": 10500,
+      "cs": 180,
+      "vision_score": 25,
+      "total_damage": 8200,
+      "first_blood": true
+    },
+    {
+      "role": "MID",
+      "champion": "Sylas",
+      "kills": 7,
+      "deaths": 1,
+      "assists": 5,
+      "gold_earned": 14200,
+      "cs": 265,
+      "vision_score": 22,
+      "total_damage": 22400,
+      "first_blood": false
+    },
+    {
+      "role": "BOT",
+      "champion": "Jinx",
+      "kills": 8,
+      "deaths": 2,
+      "assists": 4,
+      "gold_earned": 15800,
+      "cs": 290,
+      "vision_score": 15,
+      "total_damage": 28500,
+      "first_blood": false
+    },
+    {
+      "role": "SUPPORT",
+      "champion": "Thresh",
+      "kills": 0,
+      "deaths": 3,
+      "assists": 14,
+      "gold_earned": 8200,
+      "cs": 45,
+      "vision_score": 58,
+      "total_damage": 4300,
+      "first_blood": false
+    }
+  ]
+}

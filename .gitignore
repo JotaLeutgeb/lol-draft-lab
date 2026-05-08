@@ -1,0 +1,17 @@
+.env
+data/raw/
+data/processed/*
+!data/processed/pro_drafts/
+data/processed/pro_drafts/*
+!data/processed/pro_drafts/pro_drafts.parquet
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+Thumbs.db
