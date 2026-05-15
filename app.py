@@ -54,6 +54,12 @@ from src.draft_engine import DraftEngine
 import src.ui.draft_tab
 importlib.reload(src.ui.draft_tab)
 from src.ui.draft_tab import render_draft_tab
+import src.build_engine
+importlib.reload(src.build_engine)
+from src.build_engine import BuildEngine
+import src.ui.build_lab_tab
+importlib.reload(src.ui.build_lab_tab)
+from src.ui.build_lab_tab import render_build_lab
 from src.visualization import (
     plot_ghost_radar,
     plot_match_momentum,
@@ -143,6 +149,12 @@ def load_benchmarks(region: str, patch: str):
 @st.cache_resource(show_spinner="Cargando base de drafts pro...")
 def load_draft_engine_v2() -> DraftEngine:
     engine = DraftEngine()
+    engine.load()
+    return engine
+
+@st.cache_resource(show_spinner="Cargando base de builds pro...")
+def load_build_engine() -> BuildEngine:
+    engine = BuildEngine()
     engine.load()
     return engine
 
@@ -482,7 +494,7 @@ def extract_synergy_dicts(df_summary: pd.DataFrame, df_b: pd.DataFrame):
 # ─────────────────────────────────────────────────────────────────────
 tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
     "⚡ War Room", "👤 Individual", "📈 Tempo & Macro", "🧠 Patrones",
-    "🏆 Challenger Gap", "🗺️ Por Partida", "🎯 Draft Lab"
+    "🏆 Challenger Gap", "🗺️ Por Partida", "🔧 Herramientas"
 ])
 
 features = {}
@@ -1151,7 +1163,14 @@ with tab6:
     else:
         st.info("Carga datos para visualizar el análisis por partida.")
 
-# TAB 7: DRAFT LAB
+# TAB 7: HERRAMIENTAS
 with tab7:
-    draft_engine = load_draft_engine_v2()
-    render_draft_tab(draft_engine, dd_ver)
+    tool_draft, tool_builds = st.tabs(["🎯 Draft Lab", "🛠️ Build Lab"])
+
+    with tool_draft:
+        draft_engine = load_draft_engine_v2()
+        render_draft_tab(draft_engine, dd_ver)
+
+    with tool_builds:
+        build_engine = load_build_engine()
+        render_build_lab(build_engine, dd_ver)

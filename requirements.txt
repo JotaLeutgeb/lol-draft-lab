@@ -11,3 +11,5 @@ supabase
 pymongo
 gdown
 mwclient
+playwright
+beautifulsoup4
